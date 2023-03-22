@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.example</groupId>
+  <artifactId>java1</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>java1</name>
+  <url>http://maven.apache.org</url>
+  <modules>
+    <module>mvc1</module>
+    <module>mvc2</module>
+  </modules>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <!-- Spring版本号 -->
+    <spring.version>4.1.3.RELEASE</spring.version>
+    <!--<spring.version>5.0.2.RELEASE</spring.version>-->
+
+  </properties>
+
+</project>

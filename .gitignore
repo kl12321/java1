@@ -1,0 +1,4 @@
+# Project exclude paths
+/mvc1/target/
+/mvc2/target/
+/out/
